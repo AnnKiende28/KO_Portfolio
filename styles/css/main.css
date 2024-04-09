@@ -12,16 +12,20 @@ header {
     display: flex;
     text-transform: uppercase;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
     font-weight: bold;
-    width: 45%;
     font-size: larger;
 }
 
 .nav-bar, .nav-bar a {
     padding: 15px;
+}
+
+.nav-bar a {
+    font-size: smaller;
 }
 
 main {
