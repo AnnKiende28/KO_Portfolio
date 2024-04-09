@@ -43,3 +43,9 @@ main {
 #ss-item p {
     line-height: 1.5;
 }
+
+footer section{
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+}
