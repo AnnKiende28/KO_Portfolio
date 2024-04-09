@@ -11,8 +11,13 @@ body {
 header {
     display: flex;
     text-transform: uppercase;
-    justify-content: center;
-    /*padding: 10px;*/
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    width: 45%;
+    font-size: larger;
 }
 
 .nav-bar, .nav-bar a {
