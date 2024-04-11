@@ -8,11 +8,15 @@ body {
     padding: 10px;
 }
 
-header {
+/*header {
+    
+}*/
+
+.navbar-container {
     display: flex;
-    text-transform: uppercase;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
 }
 
 .logo {
