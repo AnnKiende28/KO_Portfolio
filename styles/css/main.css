@@ -23,6 +23,11 @@ header {
     font-size: larger;
 }
 
+.logo a {
+    text-decoration: none;
+    color: #A57B36;
+}
+
 .nav-bar, .nav-bar a {
     padding: 15px;
 }
