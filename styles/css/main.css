@@ -8,9 +8,10 @@ body {
     padding: 10px;
 }
 
-/*header {
-    
-}*/
+header {
+    height: 100vh;
+    overflow: hidden;
+}
 
 .navbar-container {
     display: flex;
@@ -30,6 +31,13 @@ body {
 
 .nav-bar a {
     font-size: smaller;
+}
+
+.carousel-image img {
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main {
