@@ -43,6 +43,37 @@ header {
     background-repeat: no-repeat;
 }
 
+.carousel-form {
+    border: 1px solid #0B2D33;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 30%;
+    margin: 10px auto;
+}
+
+.project-form {
+    padding: 10px;
+}
+
+.project-form label {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.project-form p {
+    text-align: center;
+}
+
+.project-form * {
+    padding: 10px;
+    margin: 10px 0;
+    display: block;
+    width: 100%;
+}
+
+/* main */
+
 main {
     background-color: #a57a36bd;
     margin: 10px 0;
