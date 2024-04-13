@@ -36,6 +36,21 @@ header {
     font-size: smaller;
 }
 
+/* carousel */
+.carousel-container {
+    padding: 0 15px;
+}
+
+.carousel-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.carousel-text {
+    text-align: center;
+}
+
 .carousel-form {
     border: 1px solid #0B2D33;
     border-radius: 5px;
@@ -45,7 +60,7 @@ header {
 }
 
 .project-form {
-    padding: 10px;
+    padding: 1px;
 }
 
 .project-form label {
