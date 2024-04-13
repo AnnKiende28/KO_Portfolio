@@ -36,13 +36,6 @@ header {
     font-size: smaller;
 }
 
-.carousel-image img {
-    max-width: 100%;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .carousel-form {
     border: 1px solid #0B2D33;
     border-radius: 5px;
