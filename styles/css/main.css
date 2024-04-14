@@ -109,6 +109,7 @@ main {
     background-color: #0B2D33;
     color: #A57B36;
     border-radius: 6px;
+    position: relative;
 }
 
 #ss-item h3 {
@@ -118,11 +119,24 @@ main {
 
 #ss-item p {
     line-height: 1.5;
+    margin-bottom: 18%;
 }
 
 .view-samples-btn {
     padding: 5px;
     width: 50%;
+    position: absolute;
+    bottom: 20px; 
+    border: 1px solid #A57B36;
+    color: #0B2D33;
+    border-radius: 5px;
+}
+
+.view-samples-btn:hover {
+    border-color: #A57B36;
+    color: #0B2D33;
+    background-color: #A57B36;
+    font-weight: bold;
 }
 
 /* footer */
