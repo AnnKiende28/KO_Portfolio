@@ -39,7 +39,7 @@ header {
 /* carousel */
 .carousel-container {
     padding: 0 15px;
-    background-image: url(imgs/students_graduating.jpg);
+    background-image: url(/KO_Portfolio/imgs/students_graduating.jpg);
     background-size: cover;
 }
 
