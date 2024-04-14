@@ -120,6 +120,13 @@ main {
     line-height: 1.5;
 }
 
+.view-samples-btn {
+    padding: 5px;
+    width: 50%;
+}
+
+/* footer */
+
 footer section{
     display: flex;
     justify-content: center;
