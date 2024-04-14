@@ -49,6 +49,14 @@ header {
     flex-wrap: wrap;
 }
 
+.carousel-text h2 {
+    margin: 10px;
+}
+
+.carousel-text p {
+    margin-bottom: 10px;
+}
+
 .carousel-text {
     text-align: center;
 }
