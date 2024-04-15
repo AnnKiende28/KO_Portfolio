@@ -92,6 +92,12 @@ header {
 
 .tel-dropdown {
     padding: 0;
+    display: flex;
+}
+
+#country-code {
+    width: 50%;
+    margin-right: 2px;
 }
 
 /* main */
