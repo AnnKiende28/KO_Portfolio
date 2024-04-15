@@ -90,6 +90,10 @@ header {
     width: 100%;
 }
 
+.tel-dropdown {
+    padding: 0;
+}
+
 /* main */
 
 main {
