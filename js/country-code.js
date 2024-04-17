@@ -251,5 +251,5 @@ countryCodes.forEach(country => {
 
 // Event listener to update phone number input field when country code us changed
 selectElement.addEventListener('change', function() {
-    document.querySelector('[name = "client-phone"]').placeholder = "Phone Number" + this.value;
+    document.querySelector('[name = "client-phone"]').placeholder = this.value;
 });
