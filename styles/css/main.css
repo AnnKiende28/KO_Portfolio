@@ -105,10 +105,17 @@ header {
     padding: 0;
     display: flex;
     align-items: center;
+    background-color: #FFF;
+    border: 1px solid #757575;
+    border-radius: 2px;
+}
+
+.select-files:hover {
+    border: 1px solid #4F4F4F
 }
 
 label[for="client-file"] {
-    width: 30%;
+    width: 35%;
 }
 
 input[type="file"][name="client-file"] {
