@@ -41,6 +41,8 @@ header {
     padding: 0 15px;
     background-image: url(/KO_Portfolio/imgs/students_graduating.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .carousel-info {
