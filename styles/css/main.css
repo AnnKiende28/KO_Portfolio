@@ -70,32 +70,9 @@ nav li:first-child {
     width: 100%;
 }
 
-
-
-/*.navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-transform: uppercase;
+.menu-button {
+    display: none;
 }
-
-.logo {
-    font-weight: bold;
-    font-size: larger;
-}
-
-.logo a {
-    text-decoration: none;
-    color: #A57B36;
-}
-
-.nav-bar, .nav-bar a {
-    padding: 15px;
-}
-
-.nav-bar a {
-    font-size: smaller;
-} */
 
 /* carousel */
 .carousel-container {
@@ -248,4 +225,20 @@ footer section{
     display: flex;
     justify-content: center;
     font-size: smaller;
+}
+
+@media(max-width: 800px) {
+    .hideOnMobile {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+}
+
+@media(max-width: 400px) {
+    .sidebar {
+        max-width: 100%;
+    }
 }
