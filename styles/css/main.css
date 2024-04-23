@@ -33,6 +33,7 @@ nav a {
     align-items: center;
     color: #fff;
     text-decoration: none;
+    font-size: 14px;
 }
 
 nav a:hover {
@@ -59,7 +60,7 @@ nav li:first-child {
     background-color: rgba(11, 45, 51, 0.2);
     backdrop-filter: blur(5px);
     box-shadow: -10px 0 10px rgba(11, 45, 51, 0.1);
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
