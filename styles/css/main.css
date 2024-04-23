@@ -43,8 +43,33 @@ nav a:hover {
     background-color: #0d363dfd;
 }
 
-nav a:first-child {
+nav li:first-child {
+    margin-right: auto;
+    text-transform: uppercase;
+    font-weight: bold;
 }
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(11, 45, 51, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: -10px 0 10px rgba(11, 45, 51, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li, .sidebar a {
+    width: 100%;
+}
+
+
 
 /*.navbar-container {
     display: flex;
