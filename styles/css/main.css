@@ -223,6 +223,54 @@ main {
     font-weight: bold;
 }
 
+/* start main for samples.html */
+
+.sm-main, #sm-item, .view-sm-btn {
+    padding: 5px;
+}
+
+.sm-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#sm-item {
+    width: 294px;
+    margin: 1% 1%;
+    padding: 15px;
+    background-color: #0B2D33;
+    color: #A57B36;
+    border-radius: 6px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sm-item h3 {
+    padding: 10px 0;
+}
+
+.view-sm-btn {
+    width: 100%;
+    padding: 5px;
+    border: 0.5px solid #A57B36;
+    color: #0B2D33;
+    border-radius: 5px;
+}
+
+.view-sm-btn:hover {
+    border-color: #A57B36;
+    color: #0B2D33;
+    background-color: #A57B36;
+    font-weight: bold;
+}
+
+/* end main for samples.html */
+
 /* footer */
 
 footer section{
