@@ -42,6 +42,11 @@ nav a:hover {
 
 .nav-active {
     background-color: #0d363dfd;
+    font-weight: bold;
+}
+
+.nav-active a {
+    color: #DFB56C;
 }
 
 nav li:first-child {
@@ -167,7 +172,6 @@ input[type="file"][name="client-file"] {
 main {
     background-color: #a57a36bd;
     margin: 10px 0;
-    
 }
 
 /* sample class section */
